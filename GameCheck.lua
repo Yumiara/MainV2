@@ -74,11 +74,17 @@ wait()
 if placeId == 893973440 then
     getgenv().ScriptName = "FTF"
 end
+wait()
+if placeId == 16389395869 or placeId == 16389398622 then
+    getgenv().ScriptName = "ADT"
+end
 task.wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Asset/main/ytiruceS.lua"))()
 coroutine.wrap(function()
     if getgenv().ScriptName == "The Mimic" then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Script/main/TheMimic.lua"))()
+    elseif getgenv().ScriptName == "ADT" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Script/main/ADT.lua"))()
     elseif getgenv().ScriptName == "Dragon Adventure" then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Script/main/DragonAdventure.lua"))()
     elseif getgenv().ScriptName == "HEDE RNG" then
