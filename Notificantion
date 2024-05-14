@@ -1,4 +1,4 @@
 return {
-    ["Message"] = "Vote for solara & ttjy hub in discord server",
+    ["Message"] = "Updated Stock Up Script, Re-execute to update",
     ["Color"] = Color3.new(1, 1, 1)
 }
