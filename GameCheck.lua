@@ -78,8 +78,9 @@ wait()
 if placeId == 16389395869 or placeId == 16389398622 then
     getgenv().ScriptName = "ADT"
 end
+wait()
 if placeId == 15214140740 then
-    getgenv().ScriptName = "UTS
+    getgenv().ScriptName = "UTS"
 end
 task.wait()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Asset/main/ytiruceS.lua"))()
