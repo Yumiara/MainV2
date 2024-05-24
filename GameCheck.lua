@@ -67,7 +67,7 @@ if placeId == 16408177303 then
     getgenv().ScriptName = "Anime Roulette"
 end
 wait()
-if placeId == 16256372659 or placeId == 16228316919 or placeId == 16942077161 or placeId == 16303465041 then
+if placeId == 16256372659 or placeId == 16228316919 or placeId == 16942077161 or placeId == 16303465041 or placeId == 16584009082 then
     getgenv().ScriptName = "Stock Up"
 end
 wait()
